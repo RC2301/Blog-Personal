@@ -33,41 +33,40 @@ sudo snap install --classic heroku
 
 _Se debera instalar por consola el Heroku para Windows_
 
-```
 * [Instalador](https://cli-assets.heroku.com/heroku-x64.exe)
-```
 
 _Se debera instalar por consola el Express_
 
 ```
-npm install express
+npm install express --save
 ```
 
 _Se debera instalar por consola el Handlebars_
 
 ```
-npm install hbs
+npm install hbs --save
 ```
 
 
 ## Ejecutando las pruebas ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
+_Para ejecutar por consola se debe ingresar el comando_
 
 ```
-Da un ejemplo
+node server.js 
 ```
 
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
+_O tambien el comando_
 
 ```
-Da un ejemplo
+nodemon server.js 
+```
+### Comprobacion ⌨️
+
+_Puede comprobar, ingresando en el navegador de su preferencia, digitando el siguiente URL_
+
+```
+localhost:3000
 ```
 
 ## Despliegue 📦
@@ -76,45 +75,27 @@ _Agrega notas adicionales sobre como hacer deploy_
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+_Enlaces de descarga de los recursos utilizados para la realizacion de este Blog Personal_
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+* [Visual Studio Code](https://code.visualstudio.com/) - Editor de código fuente.
+* [Node js](https://nodejs.org/es/) - Entorno de ejecución para JavaScript.
+* [GitHub](https://github.com/)  - Repositorio
+* [Heroku](https://www.heroku.com)  - Heroku
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+_Creado y disiñado por:_
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
+* **Richard Camacho** - *Creador Master* - [RC2301](https://github.com/RC2301)
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia (ISC).
 
 ## Expresiones de Gratitud 🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
-
-
+* Agradezco a Mi Novia Fanny por acompañarme y apoyarme en el desarrollo de este Blog Personal. ❤️
+* Agradezco a Tatiana Sarango quien estuvo ahi viendo mi trabajo. 
 
 ---
-⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
+⌨️ con ❤️ por [RC2301](https://github.com/RC2301) 😊
