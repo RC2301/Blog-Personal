@@ -17,9 +17,23 @@ app.get('/home', function(req, res) {
     });
 
 });
+app.get('/portafolio', function(req, res) {
+    res.render('portafolio', {
+        titulo: "Portafolio",
+        nombre: "RichARd cAmaCHo"
+    });
+
+});
 app.get('/contactame', function(req, res) {
     res.render('contactame', {
         titulo: "Contactame",
+        nombre: "RichARd cAmaCHo"
+    });
+
+});
+app.get('/skills', function(req, res) {
+    res.render('skills', {
+        titulo: "Skills",
         nombre: "RichARd cAmaCHo"
     });
 
