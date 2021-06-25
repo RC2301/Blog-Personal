@@ -24,6 +24,13 @@ app.get('/contactame', function(req, res) {
     });
 
 });
+app.get('/certificaciones', function(req, res) {
+    res.render('certificaciones', {
+        titulo: "Certificaciones",
+        nombre: "RichARd cAmaCHo"
+    });
+
+});
 app.get('/estudios', function(req, res) {
     res.render('estudios', {
         titulo: "Estudios",
