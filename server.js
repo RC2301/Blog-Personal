@@ -17,6 +17,20 @@ app.get('/home', function(req, res) {
     });
 
 });
+app.get('/contactame', function(req, res) {
+    res.render('contactame', {
+        titulo: "Contactame",
+        nombre: "RichARd cAmaCHo"
+    });
+
+});
+app.get('/estudios', function(req, res) {
+    res.render('estudios', {
+        titulo: "Estudios",
+        nombre: "RichARd cAmaCHo"
+    });
+
+});
 app.get('/', function(req, res) {
     res.render('index', {
         titulo: "Index",
