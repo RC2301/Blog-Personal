@@ -1,16 +1,17 @@
 {
-  "name": "blog-personal",
-  "version": "1.0.0",
-  "description": "Blog Personal de Richard Camacho",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "Richard Camacho",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "hbs": "^4.1.2"
-  }
+    "name": "blog-personal",
+    "version": "1.0.0",
+    "description": "Blog Personal de Richard Camacho",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "nodemom": "nodemom server.js"
+    },
+    "author": "Richard Camacho",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "hbs": "^4.1.2"
+    }
 }
